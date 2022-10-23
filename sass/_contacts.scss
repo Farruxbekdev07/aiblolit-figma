@@ -1,0 +1,64 @@
+
+main
+{
+    justify-content: center;
+    align-items: center;
+
+    .container
+    {
+        justify-content: center;
+        align-items: center;
+        
+        .main__title
+        {
+            font-family: SchoolBook;
+            font-size: 40px;
+            line-height: 40px;
+            letter-spacing: 0px;
+            text-align: left;
+            margin-bottom: 50px;
+            margin-top: 30px;
+            color: black;
+        }
+
+        ul
+        {
+            padding: 0;
+            margin-bottom: 0;
+
+            li
+            {
+                font-family: Futura New;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 35px;
+                letter-spacing: 0px;
+                text-align: left;
+                list-style: none;
+
+                a
+                {
+                    text-decoration: none;
+                    color: #59443F;
+                    line-height: 50px;
+                }
+            }
+
+            .main__item
+            {
+                font-family: SchoolBook;
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 60px;
+                letter-spacing: 0px;
+                text-align: left;
+            }
+        }
+
+        iframe
+        {
+            margin-top: 50px;
+            width: 50vw;
+        }
+    }
+}

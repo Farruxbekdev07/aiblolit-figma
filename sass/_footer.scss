@@ -1,0 +1,54 @@
+footer {
+    color: #fff;
+    width: 100vw;
+    min-height: 469px;
+    background-color: $brown;
+    font-size: 14px;
+    li {
+        line-height: 26px;
+        list-style: none;
+        &:hover > * {
+            color: rgb(211, 205, 205);
+        }
+        &:hover {
+            cursor: pointer;
+        }
+        a {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 450;
+            text-decoration: none;
+        }
+        .footer_brand {
+            font-size: 40px;
+            font-family: 'SchoolBook';
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+    }
+
+    a 
+    {
+        text-decoration: none;
+    }
+
+    .download_btn
+    {
+        background: #000;
+        color: #fff;
+        align-items: center;
+    }
+
+    .brand_icon {
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        left: -75%;
+        // top: -25%;
+        background: white;
+        border-radius: 50%;
+    }
+    .groups_img {
+        width: 40px;
+    }
+}

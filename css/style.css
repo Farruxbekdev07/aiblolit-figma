@@ -1,0 +1,179 @@
+header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header img {
+  width: 70px;
+  height: 70px;
+}
+header .col-8 {
+  display: flex;
+  align-items: center;
+}
+header .location {
+  display: flex;
+  align-items: center;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+header ul li {
+  list-style: none;
+}
+header ul li a {
+  text-decoration: none;
+  color: gray;
+}
+
+main {
+  justify-content: center;
+  align-items: center;
+}
+main .container {
+  justify-content: center;
+  align-items: center;
+}
+main .container .main__title {
+  font-family: SchoolBook;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  color: black;
+}
+main .container ul {
+  padding: 0;
+  margin-bottom: 0;
+}
+main .container ul li {
+  font-family: Futura New;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0px;
+  text-align: left;
+  list-style: none;
+}
+main .container ul li a {
+  text-decoration: none;
+  color: #59443F;
+  line-height: 50px;
+}
+main .container ul .main__item {
+  font-family: SchoolBook;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+main .container iframe {
+  margin-top: 50px;
+  width: 50vw;
+}
+
+header {
+  box-shadow: unset;
+}
+
+main {
+  display: block;
+  padding: 30px;
+  height: 100%;
+  overflow-x: hidden;
+}
+main .container {
+  display: block;
+}
+main .container .col-8 {
+  display: grid;
+  align-items: center;
+}
+main ul {
+  list-style: none;
+  gap: 10px;
+}
+main ul a {
+  text-decoration: none;
+}
+
+.col-8 a {
+  font-weight: 600;
+}
+
+.main__image {
+  width: 255px;
+  height: 255px;
+  border-radius: 20px;
+}
+
+.main__title {
+  font-family: SchoolBook;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 110px;
+  margin-bottom: 0;
+}
+
+.main_item {
+  font-family: Futura New;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer {
+  color: #fff;
+  width: 100vw;
+  min-height: 469px;
+  background-color: #59443F;
+  font-size: 14px;
+}
+footer li {
+  line-height: 26px;
+  list-style: none;
+}
+footer li:hover > * {
+  color: rgb(211, 205, 205);
+}
+footer li:hover {
+  cursor: pointer;
+}
+footer li a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 450;
+  text-decoration: none;
+}
+footer li .footer_brand {
+  font-size: 40px;
+  font-family: "SchoolBook";
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+footer a {
+  text-decoration: none;
+}
+footer .download_btn {
+  background: #000;
+  color: #fff;
+  align-items: center;
+}
+footer .brand_icon {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: -75%;
+  background: white;
+  border-radius: 50%;
+}
+footer .groups_img {
+  width: 40px;
+}/*# sourceMappingURL=style.css.map */

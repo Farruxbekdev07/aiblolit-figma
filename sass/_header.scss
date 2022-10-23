@@ -1,0 +1,44 @@
+header
+{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    img
+    {
+        width: 70px;
+        height: 70px;
+    }
+
+    .col-8
+    {
+        display: flex;
+        align-items: center;
+    }
+
+    .location
+    {
+        display: flex;
+        align-items: center;
+    }
+
+    ul
+    {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+
+        li
+        {
+            list-style: none;
+
+            a 
+            {
+                text-decoration: none;
+                color: gray;
+            }
+        }
+    }
+}

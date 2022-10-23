@@ -1,0 +1,63 @@
+header
+{
+    box-shadow: unset;
+}
+
+main
+{
+    display: block;
+    padding: 30px;
+    height: 100%;
+    overflow-x: hidden;
+
+    .container
+    {
+        display: block;
+
+        .col-8
+        {
+            display: grid;
+            align-items: center;
+        }
+    }
+
+    ul 
+    {
+        list-style: none;
+        gap: 10px;
+
+        a
+        {
+            text-decoration: none;
+        }
+    }
+}
+
+.col-8 a
+{
+    font-weight: 600;
+}
+
+.main__image
+{
+    width: 255px;
+    height: 255px;
+    border-radius: 20px;
+}
+
+.main__title
+{
+    font-family: SchoolBook;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 110px;
+    margin-bottom: 0;
+}
+
+.main_item
+{
+    font-family: Futura New;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 30px;
+}
