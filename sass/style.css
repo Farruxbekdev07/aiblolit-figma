@@ -236,13 +236,14 @@ footer .groups_img {
   background-color: white;
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
   padding: 0 20px 0 20px;
+  font-family: sans-serif;
 }
 .zapis_main .zapis_item:hover {
   cursor: pointer;
   border: 1px solid #C3B9B5;
 }
 .zapis_main .zapis_item .item_content {
-  font-size: 16px;
+  font-size: 14px;
 }
 .zapis_main .main_big_text {
   font-size: 52px;
@@ -383,7 +384,6 @@ footer .groups_img {
   justify-content: baseline;
   align-items: baseline;
   font-family: sans-serif !important;
-  padding-top: 90px;
   padding-bottom: 30px;
 }
 .zapis_oplata::-webkit-scrollbar {
