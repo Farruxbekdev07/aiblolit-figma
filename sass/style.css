@@ -1,0 +1,540 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header img {
+  width: 70px;
+  height: 70px;
+}
+header .col-8 {
+  display: flex;
+  align-items: center;
+}
+header .location {
+  display: flex;
+  align-items: center;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+header ul li {
+  list-style: none;
+}
+header ul li a {
+  text-decoration: none;
+  color: gray;
+}
+
+main {
+  justify-content: center;
+  align-items: center;
+}
+main .container {
+  justify-content: center;
+  align-items: center;
+}
+main .container .main__title {
+  font-family: SchoolBook;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  color: black;
+}
+main .container ul {
+  padding: 0;
+  margin-bottom: 0;
+}
+main .container ul li {
+  font-family: Futura New;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0px;
+  text-align: left;
+  list-style: none;
+}
+main .container ul li a {
+  text-decoration: none;
+  color: #59443F;
+  line-height: 50px;
+}
+main .container ul .main__item {
+  font-family: SchoolBook;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+main .container iframe {
+  margin-top: 50px;
+  width: 50vw;
+}
+
+header {
+  box-shadow: unset;
+}
+
+main {
+  display: block;
+  padding: 30px;
+  height: 100%;
+  overflow-x: hidden;
+}
+main .container {
+  display: block;
+}
+main .container .col-8 {
+  display: grid;
+  align-items: center;
+}
+main ul {
+  list-style: none;
+  gap: 10px;
+}
+main ul a {
+  text-decoration: none;
+}
+
+.col-8 a {
+  font-weight: 600;
+}
+
+.main__image {
+  width: 255px;
+  height: 255px;
+  border-radius: 20px;
+}
+
+.main__title {
+  font-family: SchoolBook;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 110px;
+  margin-bottom: 0;
+}
+
+.main_item {
+  font-family: Futura New;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/*-------------------------------------FOOTER-------------------------------------------------------*/
+footer {
+  color: #fff;
+  width: 100vw;
+  min-height: 44px;
+  background-color: #59443F;
+  font-size: 14px;
+}
+footer li {
+  line-height: 26px;
+}
+footer li:hover > * {
+  color: rgb(211, 205, 205);
+}
+footer li:hover {
+  cursor: pointer;
+}
+footer li a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 450;
+}
+footer li .footer_brand {
+  font-size: 40px;
+  font-family: "SchoolBook";
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+footer .brand_icon {
+  height: 12vh;
+  position: absolute;
+  left: -64%;
+  top: -14%;
+}
+footer .download_btn {
+  background-color: black;
+  color: #fff;
+  padding: 2px 8px 1px 8px;
+  border: 1px solid gray;
+  border-bottom: 2px solid gray;
+  font-size: 7px;
+  line-height: 14px;
+  height: 41px;
+  width: 128px;
+}
+footer .download_btn .download_brand {
+  font-size: 14px;
+  font-weight: 400;
+}
+footer .groups_img {
+  width: 40px;
+}
+
+/*-------------------------------------FOOTER---IS---FINISHED------------------------------------------------*/
+@font-face {
+  font-family: Futura New;
+  src: url(../../assests/fonts/Futura-Book-Font/Futura\ Book\ Font/);
+  font-weight: normal;
+}
+.zapis_main {
+  min-height: 100vh;
+  display: block;
+  justify-content: baseline;
+  align-items: baseline;
+  font-family: sans-serif !important;
+}
+.zapis_main .container {
+  justify-content: baseline;
+  align-items: baseline;
+}
+.zapis_main .container .row {
+  height: 100%;
+}
+.zapis_main .container .row > * {
+  padding: 0;
+}
+.zapis_main .zapis_back {
+  color: #FFC59E;
+}
+.zapis_main .lists_wrapper {
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.zapis_main .zapis_item {
+  height: 65.3846153846px;
+  border-radius: 13.3333333333px;
+  background-color: white;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+  padding: 0 20px 0 20px;
+}
+.zapis_main .zapis_item:hover {
+  cursor: pointer;
+  border: 1px solid #C3B9B5;
+}
+.zapis_main .zapis_item .item_content {
+  font-size: 16px;
+}
+.zapis_main .main_big_text {
+  font-size: 52px;
+  font-weight: 500;
+}
+.zapis_main .modal-content {
+  padding: 20px 0 !important;
+  height: 354.4px !important;
+  width: 320px !important;
+  background-color: #fff;
+  border-radius: 16px;
+  position: relative;
+}
+.zapis_main .modal-content .btn_close {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 6px;
+}
+.zapis_main .modal-content .btn_close:hover {
+  cursor: pointer;
+}
+.zapis_main .modal-content .vhod_title {
+  font-size: 24px;
+}
+.zapis_main .modal-content .vhod_form {
+  position: relative;
+}
+.zapis_main .modal-content .vhod_form .for_form {
+  position: absolute;
+  left: 12px;
+  top: 35px;
+}
+.zapis_main .modal-content .vhod_form .for_form2 {
+  position: absolute;
+  left: 68.1px;
+  top: 35px;
+}
+.zapis_main .modal-content .vhod_form .vhod_input {
+  margin-top: 24px;
+  margin-bottom: 22px;
+  width: 275.2px;
+  height: 45.6px;
+  border: 1px solid #EDE9E8;
+  border-radius: 16px;
+  padding-left: 40px;
+  border: none;
+}
+.zapis_main .modal-content .vhod_form .vhod_input:valid {
+  border: 2px solid green;
+}
+.zapis_main .modal-content .vhod_form .vhod_input:invalid {
+  border: 1px solid #EDE9E8;
+}
+.zapis_main .modal-content .vhod_form .vhod_input:invalid + .vhod_phone > .vhod_btn {
+  background-color: #EDE9E8;
+}
+.zapis_main .modal-content .vhod_form .vhod_input:valid + .vhod_phone > .vhod_btn {
+  background-color: #FFC59E !important;
+}
+.zapis_main .modal-content .vhod_form .vhod_input:focus-visible {
+  border: 1px solid #EDE9E8;
+}
+.zapis_main .modal-content .vhod_form .vhod_btn {
+  height: 53.6px;
+  width: 227.624px;
+  border-radius: 26.8px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+
+@media only screen and (min-width: 991px) {
+  .zapis_main {
+    padding: 60px 120px 60px 130px;
+  }
+}
+@media only screen and (min-width: 991px) {
+  .main_big_text {
+    padding-right: 3vw !important;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .main_big_text {
+    font-size: 30px !important;
+    margin-bottom: 30px;
+  }
+  .zapis_item {
+    height: 40px !important;
+  }
+  .zapis_item .item_content {
+    font-size: 13px !important;
+  }
+}
+@media only screen and (max-width: 329px) {
+  .main_big_text {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .back_item {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 468px) {
+  .main_big_text {
+    margin-bottom: 30px;
+  }
+  .zapis_main {
+    padding: 8px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main_big_text {
+    font-size: 40px !important;
+    margin-bottom: 30px;
+  }
+}
+/*-------------------------------ZAPIS-----OPLATA-------------------------------*/
+@font-face {
+  font-family: Futura New;
+  src: url(../../assests/fonts/Futura-Book-Font/Futura\ Book\ Font/);
+  font-weight: normal;
+}
+.zapis_oplata {
+  overflow-y: visible;
+  max-height: 200vh;
+  display: block;
+  justify-content: baseline;
+  align-items: baseline;
+  font-family: sans-serif !important;
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+.zapis_oplata::-webkit-scrollbar {
+  display: none;
+}
+.zapis_oplata .container {
+  justify-content: baseline;
+  align-items: baseline;
+}
+.zapis_oplata .container .row {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+}
+.zapis_oplata .container .row > * {
+  padding: 0;
+}
+.zapis_oplata .w-45 {
+  width: 48.8%;
+}
+.zapis_oplata .oplata_form .oplata_text {
+  font-size: 14px;
+  line-height: 25px;
+  color: #59443F;
+  margin-top: 10px;
+}
+.zapis_oplata .oplata_form .check_form {
+  background-color: #EDE9E8;
+  border-radius: 16px;
+  min-height: 235.2px;
+  max-height: 320px !important;
+  font-size: 15px;
+}
+.zapis_oplata .oplata_form .check_form .check_img {
+  max-width: 150px;
+  min-width: 100px;
+}
+.zapis_oplata .oplata_form .check_form .check_btn {
+  height: 53.6px;
+  border-radius: 26.8px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 22px;
+  margin-top: 20px;
+  background-color: transparent;
+}
+.zapis_oplata .oplata_form .check_form .check_btn:invalid .check_btn {
+  background-color: transparent;
+}
+.zapis_oplata .oplata_form .check_form .check_btn:valid .check_btn {
+  background-color: #FFC59E !important;
+}
+.zapis_oplata .oplata_form .for_problem {
+  padding-top: 20px;
+  padding-bottom: 140px;
+  word-wrap: break-word;
+}
+.zapis_oplata .oplata_form .oplata_input {
+  font-size: 15px;
+  padding-left: 10px;
+  height: 43.8461538462px;
+  border: 1px solid #EDE9E8;
+  border-radius: 16px;
+}
+.zapis_oplata .oplata_form .oplata_input:valid {
+  border: 2px solid green;
+}
+.zapis_oplata .oplata_form .oplata_input:invalid {
+  border: 1px solid #EDE9E8;
+}
+.zapis_oplata .oplata_form .oplata_input:focus-visible {
+  border: 1px solid #EDE9E8;
+}
+.zapis_oplata .zapis_back {
+  color: #FFC59E;
+}
+.zapis_oplata .main_big_text2 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 991px) {
+  .main_big_text2 {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .w-45 {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main_big_text2 {
+    font-size: 40px !important;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .back_item {
+    margin-left: 20px !important;
+  }
+}
+@media only screen and (max-width: 546px) {
+  .main_big_text2 {
+    font-size: 28px !important;
+  }
+}
+@media only screen and (max-width: 468px) {
+  .zapis_oplata {
+    padding: 40px 0 0 0 !important;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .main_big_text2 {
+    font-size: 25px !important;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .oplata_input {
+    height: 40px !important;
+    font-size: 12px !important;
+  }
+  .oplata_text {
+    font-size: 12px !important;
+  }
+}
+@media only screen and (max-width: 305px) {
+  .oplata_input {
+    font-size: 10px !important;
+  }
+  .oplata_text {
+    font-size: 10px !important;
+    line-height: 14px !important;
+  }
+}
+@media only screen and (max-width: 277px) {
+  .main_big_text2 {
+    font-size: 20px !important;
+  }
+}
+@media only screen and (max-width: 230px) {
+  .main_big_text2 {
+    font-size: 18px !important;
+  }
+}
+@media only screen and (max-width: 230px) {
+  .w-45 {
+    width: 100% !important;
+  }
+}/*# sourceMappingURL=style.css.map */
